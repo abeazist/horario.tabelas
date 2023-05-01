@@ -5,18 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>horario</title>
-    <link rel="css" type="text/css" href="estilizacao.css">
+    <style>
+        th,td{
+            border: 1px solid black;
+            width: 200px;
+            text-align: center;
+            background-color: gray;
+            color: aliceblue;
+        }
 
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+
+        }
+
+        table{
+            border-collapse: collapse;
+            padding: 10px;
+            border:1px solid black;
+
+            
+        }
+
+        .periodo{
+            background-color: rgb(156, 152, 152);
+            color: black;
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+        }
+        .diassemana{
+            text-align: center;
+            background-color: gray;
+            color: aliceblue;
+
+        }
+
+        .aula{
+            background-color: gray;
+            color: antiquewhite;
+
+        }
+        .horario{
+            background-color:white;
+            color: black;
+        }
+
+        .Intervalo{
+            background-color: rgb(216, 211, 211);
+            color: black;
+            height: 0.5px;
+            width: 50px;
+        }
+
+      
+    
+    
+    
+    </style>
  </head>
 <body>
     <h1>Horário</h1>
     <table>
         <thead>
-            <th>Semana</th>
-                
-
-
+            <th colspan="9">Semana</th>
+        
         </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Horário</td>
+                <td class="diassemana",cosplan= >Segunda</td>
+                <td class="diassemana">Terça</td>
+                <td class="diassemana">Quarta</td>
+                <td class="diassemana">Quinta</td>
+                <td class="diassemana">Sexta</td>
+            </tr>
+            <tr>
+                <td class="periodo", colspan="9">Manhã</td>
+            </tr>
+            <tr>
+                <td class="aula">M1</td>
+                <td class="horario"> 07:30 - 8:20</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                
+            </tr>
+            <tr>
+                <td class="aula">M2</td>
+                <td class="horario"> 08:20 - 9:10</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="aula">M3</td>
+                <td class="horario">09:10 - 10:00</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="Intervalo", colspan="9">Intervalo</td>
+            </tr>
+            <tr>
+                <td class="aula">M4</td>
+                <td class="horario"> 10:20 - 11:05</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                
+            </tr>
+            <tr>
+                <td class="aula">M5</td>
+                <td class="horario"> 11:05 - 12:00</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+                <td class="horario">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="periodo", colspan="9">Tarde</td>
+            </tr>
+        
+
+
+        </tbody>
         
         
 
