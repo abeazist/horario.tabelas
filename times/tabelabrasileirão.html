@@ -9,27 +9,55 @@
     <style>
         body{
             background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
         }
         table{
             margin-left: auto; margin-right: auto;
             border-collapse: collapse;
-            padding: 0%;
-            border:1px solid black;
-            width: 80%;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border:1px solid rgb(134, 134, 134);
+            border-width: 3px;
+        }
+        td{
+            border: 1px solid rgb(134, 134, 134) ;
+            width: 200px;
+            text-align: center;
+            border-color: rgb(212, 212, 212);
+            border-width: 1px;
+        }
+        th{
+            color: white;
+            background-color: #4F4F4F;
+            height: 30px;
+        }
+        .podio{
+            background-color: rgb(233, 227, 227);
+            border-color: rgb(233,227,227);
+            width: 150px;
+            height: 70px;
+            border-width: 1px; 
+            font-family: Arial, Helvetica, sans-serif;
         }
         .partedecima{
+            border-width: 3px;
             background-color: gray;
             color: white;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: Arial, Helvetica, sans-serif
 
         }
-
+    .timao{
+            width: 450px;
+        
+    }
     </style>
 </head>
 <body>
+    <h1>Campeonato Brasileiro de 2022</h1>
     <table>
         <tr>
-            <th class="partedecima">Classificação</th>
+            <th class="partedecima", colspan="3" >Classificação</th>
             <th class="partedecima">P</th>
             <th class="partedecima">J</th>
             <th class="partedecima">V</th>
@@ -44,7 +72,9 @@
         </tr> 
     
         <tr>
-            <td><img src="palmeiras.jpg" alt=""></td>
+            <td class="podio">1</td>
+            <td><img src="palmeiras.jpg" height="50px" width="50px"></td>
+            <td class="timao">Palmeiras-SP</td>
             <td>81</td>
             <td>38</td>
             <td>23</td>
@@ -58,7 +88,9 @@
             <td>71</td>
         </tr>
         <tr>
-            <td><img src="internacional.jpg" alt=""></td>
+            <td class="podio">2</td>
+            <td><img src="internacional.jpg" height="50px" width="50px"></td>
+            <td>Internacional-RS</td>
             <td>73</td>
             <td>38</td>
             <td>20</td>
@@ -74,7 +106,9 @@
     
     
         <tr>
-            <td><img src="fluminense.jpg" alt=""></td>
+            <td class="podio">3</td>
+            <td><img src="fluminense.jpg" height="50px" width="50px"></td>
+            <td>Fluminense-RJ</td>
             <td>70</td>
             <td>38</td>
             <td>21</td>
@@ -89,7 +123,9 @@
         </tr>
     
         <tr>
-            <td><img src="corinthians.jpg" alt=""></td>
+            <td class="podio">4</td>
+            <td><img src="corinthians.jpg" height="50px" width="50px"></td>
+            <td>Corinthians-SP</td>
             <td>65</td>
             <td>38</td>
             <td>18</td>
@@ -105,7 +141,9 @@
     
     
         <tr>
-            <td><img src="flamengo.jpg" alt=""></td>
+            <td class="podio">5</td>
+            <td><img src="flamengo.jpg" height="50px" width="50px"></td>
+            <td>Flamengo-RJ</td>
             <td>62</td>
             <td>38</td>
             <td>18</td>
@@ -121,7 +159,9 @@
     
     
         <tr>
-            <td>Athletico Paranaense - PR</td>
+            <td class="podio">6</td>
+            <td><img src="athetico_paranaense.jpg" height="50px" width="50px"></td>
+            <td class="timao">Atlético Paranaense-PR</td>
             <td>58</td>
             <td>38</td>
             <td>16</td>
@@ -136,7 +176,9 @@
         </tr>
     
         <tr>
-            <td>Atlético Mineiro - MG</td>
+            <td class="podio">7</td>
+            <td><img src="atletico_mineiro.jpg" height="50px" width="50px"></td>
+            <td>Atlético Mineiro-MG</td>
             <td>58</td>
             <td>38</td>
             <td>15</td>
@@ -151,7 +193,9 @@
         </tr>
     
         <tr>
-            <td>Fortaleza - CE</td>
+            <td class="podio">8</td>
+            <td><img src="fortaleza.jpg" height="50px" width="50px"></td>
+            <td>Fortleza-CE</td>
             <td>55</td>
             <td>38</td>
             <td>15</td>
@@ -166,7 +210,9 @@
         </tr>
     
         <tr>
-            <td>São Paulo - SP</td>
+            <td class="podio">9</td>
+            <td><img src="sao_paulo.jpg" height="50px" width="50px"></td>
+            <td>São Paulo-SP</td>
             <td>54</td>
             <td>38</td>
             <td>13</td>
@@ -181,7 +227,9 @@
         </tr>
     
         <tr>
-            <td>América Fc Saf - MG</td>
+            <td class="podio">10</td>
+            <td><img src="america.jpg" height="50px" width="50px"></td>
+            <td>América-MG</td>
             <td>53</td>
             <td>38</td>
             <td>15</td>
@@ -196,7 +244,9 @@
         </tr>
     
         <tr>
-            <td>Botafogo - RJ</td>
+            <td class="podio">11</td>
+            <td><img src="botafogo.jpg" height="50px" width="50px"></td>
+            <td>Bora Fogo-RJ</td>
             <td>53</td>
             <td>38</td>
             <td>15</td>
@@ -211,7 +261,9 @@
         </tr>
     
         <tr>
-            <td>Santos - SP</td>
+            <td class="podio">12</td>
+            <td><img src="santos.jpg" height="50px" width="50px"></td>
+            <td>Santos-SP</td>
             <td>47</td>
             <td>38</td>
             <td>12</td>
@@ -226,7 +278,9 @@
         </tr>
     
         <tr>
-            <td>Goiás - GO</td>
+            <td class="podio">13</td>
+            <td><img src="goias.jpg" height="50px" width="50px"></td>
+            <td>Goiás-GO</td>
             <td>46</td>
             <td>38</td>
             <td>11</td>
@@ -241,7 +295,9 @@
         </tr>
     
         <tr>
-            <td>Red Bull Bragantino - SP</td>
+            <td class="podio">14</td>
+            <td><img src="bragantino.jpg" height="50px" width="50px"></td>
+            <td>Brangatino-SP</td>
             <td>44</td>
             <td>38</td>
             <td>11</td>
@@ -256,7 +312,9 @@
         </tr>
     
         <tr>
-            <td>Coritiba - PR</td>
+            <td class="podio">15</td>
+            <td><img src="coritiba.jpg" height="50px" width="50px"></td>
+            <td>Coritiba-PR</td>
             <td>42</td>
             <td>38</td>
             <td>12</td>
@@ -271,7 +329,9 @@
         </tr>
     
         <tr>
-            <td>Cuiabá Saf - MT</td>
+            <td class="podio">16</td>
+            <td><img src="cuiaba.jpg" height="50px" width="50px"></td>
+            <td>Cuiabá Saf-MT</td>
             <td>41</td>
             <td>38</td>
             <td>10</td>
@@ -286,7 +346,9 @@
         </tr>
     
         <tr>
-            <td>Ceará - CE</td>
+            <td class="podio">17</td>
+            <td><img src="ceara.jpg" height="50px" width="50px"></td>
+            <td>Ceará-CE</td>
             <td>37</td>
             <td>38</td>
             <td>7</td>
@@ -301,7 +363,9 @@
         </tr>
     
         <tr>
-            <td>Atlético - GO</td>
+            <td class="podio">18</td>
+            <td><img src="atletico_go.jpg" height="50px" width="50px"></td>
+            <td>Atlético-GO</td>
             <td>36</td>
             <td>38</td>
             <td>8</td>
@@ -316,7 +380,9 @@
         </tr>
     
         <tr>
-            <td>Avaí - SC</td>
+            <td class="podio">19</td>
+            <td><img src="avai.jpg" height="50px" width="50px"></td>
+            <td>Avaí-SC</td>
             <td>35</td>
             <td>38</td>
             <td>9</td>
@@ -331,7 +397,9 @@
         </tr>
     
         <tr>
-            <td>Juventude - RS</td>
+            <td class="podio">20</td>
+            <td><img src="juventude.jpg" height="50px" width="50px"></td>
+            <td>Juventude-RS</td>
             <td>22</td>
             <td>38</td>
             <td>3</td>
